@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>APLICACION DE PRUEBA</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" /> 
+        <meta charset="utf-8">
+	    <link rel="stylesheet" href="jquery/themes/stylesheet.css" />
+	    <link rel="stylesheet" href="jquery/themes/infoxClase.css" />
+	    <link rel="stylesheet" href="jquery/themes/jquery.mobile.icons.min.css" />
+	    <link rel="stylesheet" href="jquery/jquery.mobile.structure-1.4.5.css" />
+	    <script src="jquery/jquery-1.11.1.min.js"></script>
+	    <script src="jquery/jquery.mobile-1.4.5.min.js"></script>
+    </head>
+    <body>
+        <div data-role="page" id="home" data-theme="a">
+            <div>
+                <header class="bg_inicio" data-position="fixed"></header>
+                <img src="jquery/themes/images/logo.png" class="logohome"></img>
+            </div>
+            <article id="tituloApp">iNFO<span class="Otrocolor">X</span></article>
+            <img src="jquery/themes/images/linea.png" class="lineacentro"></img>
+            
+            <article class="fuentePrueba">
+                <br>
+                <br>
+            <br>  
+                <p>AHORA PODRÁS REVISAR LAS ÚLTIMAS NOTICIAS DE LA UNIVERSIDAD Y ESTARÁS INFORMADO SOBRE CÓMO REALIZAR TRÁMITES EDUCATIVOS.<p>
+            </article>
+            
+            <article data-role="content">
+                <a href="#pagina5" class="ui-btn ui-btn-inline boton_infox_entra">Entra<span class="Otrocolor">r</span></a>
+                <a href="#pagina1" class="ui-btn ui-btn-inline boton_infox_registro">Registr<span class="Otrocolor">o</span></a>
+            </article>
+        </div>
+        
+<!--/******************************************* HOME ****************************************/</i> -->
+         
+        <div data-role="page" id="pagina1" data-theme="a">
+            <section class="registro">
+                <header>
+                    <a href="#home"><img src="jquery/themes/images/btnRetorno.png" class="btnRetorno"></a>
+                </header>
+            <br>
+            <br>   
+            <article>
+            <img src="jquery/themes/images/logo.png" class="logo"></img>
+            <br>
+            <br>
+            <h1>!HAZLO EN SOLO TRES PASOS¡</h1>
+            <br>
+                <div id="pasos">
+                    <div id="lineaBlanca"></div>
+                        <div id="ball1">
+                        <p class="TxBola">1</p>
+                    </div>
+                        <div id="ball2">
+                        <p class="TBola">2</p>
+                    </div>
+                    <div id="ball3">
+                        <p class="TBola">3</p>
+                    </div>
+                </div>
+            <div class= "botonera">
+                <form method="post" action="demoform.asp">
+                  <input type="text" class="name1" name="fname" id="fname" placeholder="EMAIL">
+                  </form>
+                <form method="post" action="demoform.asp">
+                  <input type="text" class="name2" name="fname" id="fname" placeholder="NOMBRE">
+                  </form>
+                 <form method="post" action="demoform.asp">
+                  <input type="text" class="name3" name="fname" id="fname" placeholder="CONTRASEÑA">
+                  </form>
+                <a href="#pagina3" class="ui-btn ui-btn-inline boton_infox_pag2_continuar">CONTINUAR</a>
+             </div>
+            </article>
+            </section>
+        </div>     
+        <!--/********************************************** REGISTRO 1 ***************************************/-->
+       
+        <div data-role="page" id="pagina3" data-theme="a">
+            <section class="registro">
+                <header>
+                    <a href="#pagina1"><img src="jquery/themes/images/btnRetorno.png" class="btnRetorno"></a>
+                </header>
+            <br>
+            <br>
+            <img src="jquery/themes/images/logo.png" class="logo"></img>
+            <br>
+            <br>
+            <h1>QUE NOTICIAS QUIERES RECIBIR</h1>
+            <br>
+              <div class= "botonera2">  
+                <div id="pasos2">
+                    <div id="lineaBlanca"></div>
+                        <div id="ball1">
+                            <p class="TBola">1</p>
+                        </div>
+                        <div id="ball2">
+                        <p class="TxBola">2</p>
+                    </div>
+                    <div id="ball3">
+                        <p class="TBola">3</p>
+                    </div>
+                    </div>
+                <div class= "cascada">
+                    <div data-role="collapsible" data-theme="a" class="colapse">
+                        <h4>ELIGE TU FACULTAD</h4>
+                         <fieldset data-role="controlgroup">
+                                <input type="checkbox" name="checkbox-t-2a" id="checkbox-t-2a" data-theme="a">
+                                <label for="checkbox-t-2a">Ingenieria</label>
+                                <input type="checkbox" name="checkbox-t-2b" id="checkbox-t-2b" data-theme="a">
+                                <label for="checkbox-t-2b">Comunicacion</label>
+                                <input type="checkbox" name="checkbox-t-2c" id="checkbox-t-2c" data-theme="a">
+                                <label for="checkbox-t-2c">Ciencias empresariales</label>
+                            </fieldset>
+                    </div>
+                </div>
+                <a href="#pagina4" class="ui-btn ui-btn-inline boton_infox_pag2_continuar">CONTINUAR</a>
+                </section>    
+                </div>
+            </div>
+        <!--/********************************************** REGISTRO 2 ********************************************/-->
+        
+        <div data-role="page" id="pagina4" data-theme="a">
+            <section class="registro">
+                <header>
+                    <a href="#pagina3"><img src="jquery/themes/images/btnRetorno.png" class="btnRetorno"></a>
+                </header>
+            <br>
+            <br>
+            <img src="jquery/themes/images/logo.png" class="logo"></img>
+            <br>
+            <br>
+            <h1>QUE NOTICIAS QUIERES RECIBIR</h1>
+            <br>
+              <div class= "botonera2">  
+                <div id="pasos2">
+                    <div id="lineaBlanca"></div>
+                        <div id="ball1">
+                        <p class="TBola">1</p>
+                        </div>
+                        <div id="ball2">
+                        <p class="TBola">2</p>
+                        </div>
+                        <div id="ball3">
+                        <p class="TxBola">3</p>
+                        </div>
+                        </div>
+                <div class= "cascada">
+                    <div data-role="collapsible" data-theme="a" class="colapse">
+                        <h4>ELIGE TU PROGRAMA</h4>
+                            <fieldset data-role="controlgroup">
+                                <input type="checkbox" name="checkbox-t-2a" id="checkbox-t-2a" data-theme="a">
+                                <label for="checkbox-t-2a">Informatica</label>
+                                <input type="checkbox" name="checkbox-t-2b" id="checkbox-t-2b" data-theme="a">
+                                <label for="checkbox-t-2b">Electronica</label>
+                                <input type="checkbox" name="checkbox-t-2c" id="checkbox-t-2c" data-theme="a">
+                                <label for="checkbox-t-2c">Industrial</label>
+                            </fieldset>
+                    </div>
+                </div>
+                <a href="#pagina6" class="ui-btn ui-btn-inline boton_infox_pag2_continuar">CONTINUAR</a>
+            </div>
+            </section>
+        </div>
+       <!--/********************************************** REGISTRO 3 ********************************************/-->
+                    <div data-role="page" id="pagina5" data-theme="a">
+                        <section class="registro">
+                <header>
+                    <a href="#home"><img src="jquery/themes/images/btnRetorno.png" class="btnRetorno"></a>
+                </header>
+            <br>
+            <br>   
+            <article>
+            <img src="jquery/themes/images/logo.png" class="logo"></img>
+            <br>
+            <article id="tituloApp">iNFO<span class="Otrocolor">X</span></article>
+            
+            <br>
+            <div class= "botonera">
+                <form method="post" action="simpleform.asp">
+                  <input type="text" class="name1" name="fname" id="fname" placeholder="EMAIL">
+                  </form>
+                <form method="post" action="demoform.asp">
+                  <input type="text" class="name2" name="fname" id="fname" placeholder="NOMBRE">
+                  </form>
+                 <form method="post" action="demoform.asp">
+                  <input type="text" class="name3" name="fname" id="fname" placeholder="CONTRASEÑA">
+                  </form>
+                  <div>
+                <a href="#pagina6" class="ui-btn ui-btn-inline boton_infox_pag2_continuar">CONTINUAR</a>
+                </div>
+             </div>
+            </article>
+            </section>
+        </div> 
+    <!--/********************************************** ENTRAR ********************************************/-->
+        <div data-role="page" id="pagina6" data-theme="a" class="noticias">
+                    <header class="noticiasheader" data-position="fixed">
+                        <div>
+                            <a href="#pagina5"><img src="jquery/themes/images/btnRetorno.png" class="btnRetorno"></a>
+                        </div>
+                    </header> 
+                   
+                    <a href="#home" class="ui-btn ui-btn-inline boton_redondo_home2"></a>
+                    <br>
+                <article id="tituloB">BIENVENID<span class="Otrocolor">O</span></article>
+            <img src="jquery/themes/images/linea.png" class="lineacentro2"></img>
+            <article href="#" class="titular1">¿Eres Estudiante?</article>
+         <div>
+            <a href="#pagina7" class="ui-btn ui-btn-inline btn-opciones2">NUEV<span class="Otrocolor">O</span></a>
+            <a href="#pagina8" class="ui-btn ui-btn-inline btn-opciones2">ANTIGU<span class="Otrocolor">O</span></a>
+        </div>
+        <div>
+            <iframe img src="jquery/themes/images/noticias.png" class="noticiasframe" frameborder=0></iframe></img>
+        </div>
+        </div>
+   <!-- /********************************************** BIENVENIDO/noticias********************************************/-->   
+       <div data-role="page" id="pagina7" data-theme="a" class="nuevo">
+                    <header 
+                    class="noticiasheader" data-position="fixed" >
+                        <div>
+                            <a href="#pagina6"><img src="jquery/themes/images/btnRetorno.png" class="btnRetorno"></a>
+                        </div>
+                    </header>
+                    <a href="#home" class="ui-btn ui-btn-inline boton_redondo_home2"></a>
+                    <BR>
+                <article id="tituloB">BIENVENID<span class="Otrocolor">O</span></article>
+            <img src="jquery/themes/images/linea.png" class="lineacentro2"></img>
+         
+        <div>
+            <a href="#pagina9"><img src="jquery/themes/images/BOTONES/GENESIS.png" class="btn1"></a>
+            <a href="#home"><img src="jquery/themes/images/BOTONES/DIRECTORIO.png" class="btn2"></a>
+            <a href="#home"><img src="jquery/themes/images/BOTONES/UBICACIÓN.png" class="btn3"></a>
+            <a href="#home"><img src="jquery/themes/images/BOTONES/CALENDARIO.png" class="btn4"></a>
+            <a href="#home"><img src="jquery/themes/images/BOTONES/PRIMER AÑO.png" class="btn5"></a>
+            <a href="#home"><img src="jquery/themes/images/BOTONES/AYUDA.png" class="btn6"></a>
+        </div>
+         </div>  
+     <!--/**********************************************NUEVO********************************************/--> 
+     <div data-role="page" id="pagina8" data-theme="a" class="antiguo">
+                    <header 
+                    class="noticiasheader" data-position="fixed" >
+                        <div>
+                            <a href="#pagina6"><img src="jquery/themes/images/btnRetorno.png" class="btnRetorno"></a>
+                        </div>
+                    </header>
+                    <a href="#home" class="ui-btn ui-btn-inline boton_redondo_home2"></a>
+                    <BR>
+                <article id="tituloB">BIENVENID<span class="Otrocolor">O</span></article>
+            <img src="jquery/themes/images/linea.png" class="lineacentro2"></img>
+         
+        <div>
+            <a href="#home"><img src="jquery/themes/images/BOTONES/GENESIS.png" class="btn1"></a>
+            <a href="#home"><img src="jquery/themes/images/BOTONES/DIRECTORIO.png" class="btn2"></a>
+            <a href="#home"><img src="jquery/themes/images/BOTONES/UBICACIÓN.png" class="btn3"></a>
+            <a href="#home"><img src="jquery/themes/images/BOTONES/CALENDARIO.png" class="btn4"></a>
+            <a href="#home"><img src="jquery/themes/images/BOTONES/PRIMER AÑO.png" class="btn5"></a>
+            <a href="#home"><img src="jquery/themes/images/BOTONES/AYUDA.png" class="btn6"></a>
+        </div>
+         </div> 
+         <!--/**********************************************ANTIGUO********************************************/--> 
+          <div data-role="page" id="pagina9" data-theme="a" class="info">
+                    <header 
+                    class="noticiasheader" data-position="fixed" >
+                        <div>
+                            <a href="#pagina7"><img src="jquery/themes/images/btnRetorno.png" class="btnRetorno"></a>
+                        </div>
+                    </header>
+                    <a href="#home" class="ui-btn ui-btn-inline boton_redondo_home2"></a>
+        <div>
+          <img src="jquery/themes/images/info1.jpg" class="info"></img>
+        </div>
+         </div>  
+         <!--/**********************************************Informacion genesis********************************************/--> 
+     </body>
+</html>
